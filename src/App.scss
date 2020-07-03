@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+html,
+body {
+  background: #fafafa;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+  // border: 2.5px solid #0095C4;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 25%;
+  font-family: "Lobster";
+  &__title {
+    margin: 0;
+    font-size: 48px;
+  }
+  &__img {
+    width: 200px;
+  }
+  .button__container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  &__button {
+    border-radius: 5px;
+    border: 2.5px solid #0095c4;
+    padding: 5px 10px;
+    background: #fafafa;
+    outline: none;
+    font-family: "Lobster";
+    &:active {
+      background: #fdd78c;
+    }
+  }
+  &__factCard {
+    margin-top: 25px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  &__label {
+    font-size: 32px;
+    margin: 25px 0;
+  }
+  &__input {
+    margin-top: 25px;
+    color: #0095c4;
+    background: #0095c4;
+  }
+  .numberFact {
+    padding: 0 10px;
+    margin: 25px 0;
+  }
+}
